@@ -53,7 +53,7 @@
   width: 70%;
 }
 .wrap .right main {
-  padding: 13rem 0rem 1.5rem 2.5rem;
+  padding: 11rem 0rem 2rem 2.5rem;
   width: 100%;
 }
 .wrap .right main p {
@@ -89,6 +89,9 @@
 }
 .wrap .right form input:focus {
   outline-color: blue;
+}
+.wrap .right form .btn {
+  margin-top: 1rem;
 }
 .wrap .right form .btn input {
   background-color: #596D48;
