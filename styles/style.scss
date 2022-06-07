@@ -25,7 +25,7 @@
     position: relative;
     width: 30%;
     height: 100vh;
-    background-image: url("../image/leftbackgroundimage.jpg");
+    background-image: url(../image/leftbackgroundimage.jpg);
     background-size: cover;
     .LogoContent {
       width: 100%;
@@ -36,7 +36,7 @@
       background-color: rgba(0, 0, 0, 0.5);
       padding: 1rem 0;
       .LogoImage {
-        background-image: url("../image/odinlined.svg");
+        background-image: url(../image/odinlined.svg);
         background-size: cover;
         width: 110px;
         height: 150px;
