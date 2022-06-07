@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>驗證表單</title>
+  </head>
+  <body>
+    <div class="wrap">
+
+      <div class="left">
+        <div class="LogoContent">
+          <div class="LogoImage"></div>
+          <div class="LogoName"><h1>ODIN</h1></div>
+        </div>
+      </div>
+
+      <div class="right">
+        <main>
+          <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+          <br>
+          <p>You know you want to.</p>
+        </main>
+        <form action="">
+          <h2>Let's do this!</h2>
+          <div class="InputGroup">
+            <div>
+              <label for="">FIRST NAME</label><br>
+              <input type="text" placeholder="Thor">
+            </div>
+
+            <div>
+              <label for="">LAST NAME</label><br>
+              <input type="text" class="focus">
+            </div>
+
+            <div>
+              <label for="">EMAIL</label><br>
+              <input type="email">
+            </div>
+
+            <div>
+              <label for="">PHONE NUMBER</label><br>
+              <input type="text">
+            </div>
+
+            <div>
+              <label for="">PASSWORD</label><br>
+              <input type="password" class="error" required ><br>
+              <small style="color: red;">*Passwords do not match</small>
+            </div>
+
+            <div>
+              <label for="">CONFIRM PASSWORD</label><br>
+              <input type="text" class="error">
+            </div>
+
+            <div class="btn">
+              <input type="submit" value="Create Account">
+              <br>
+              <p>Already have an account? <span>Log in</span></p>
+            </div>
+            
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </body>
+</html>
